@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmação de Pedidos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .email-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+        .header {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .order {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .info {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <p class="header">Confirmação de Pedidos</p>
+        
+        
+        {{orders}}
+        
+        
+        <!-- Adicione mais pedidos conforme necessário -->
+    </div>
+</body>
+</html>
