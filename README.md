@@ -1,7 +1,5 @@
 # Automação de geração de relatorio e envio de email
 
-Este é um projeto (vaga redspark) para gerar um relatório de pedidos em formato de e-mail.
-
 ## Requisitos
 
 * Python 3.9+
