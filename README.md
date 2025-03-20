@@ -1,4 +1,4 @@
-# Confirmação de Pedidos
+# Automação de geração de relatorio e envio de email
 
 Este é um projeto (vaga redspark) para gerar um relatório de pedidos em formato de e-mail.
 
@@ -29,7 +29,7 @@ Este é um projeto (vaga redspark) para gerar um relatório de pedidos em format
 2. Navegue até o diretório do projeto:
 
    ```bash
-   cd teste-redspark-rpa
+   cd auto-email-report
    ```
 
 3. Crie um ambiente virtual:
